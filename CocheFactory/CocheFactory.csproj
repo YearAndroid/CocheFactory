@@ -51,6 +51,9 @@
     <Compile Include="FordFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PSCarroceria.cs" />
+    <Compile Include="PSCoche.cs" />
+    <Compile Include="PSColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
