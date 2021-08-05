@@ -38,8 +38,9 @@ namespace CocheFactory
                         CM = factory.CrearMotor();
                         Console.WriteLine(CM.PresentarMt());
 
-                        CCL = factory.CrearColor();
+                        CCL = factory.CrearColor(color);
                         Console.WriteLine(CCL.PresentarCL());
+                        
                     }
                     else if (Carroceria.Equals("C"))
                     {
